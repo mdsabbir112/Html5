@@ -1,17 +1,38 @@
-nav > ul > li {
-    display: inline-block;
-    /* display: flex; */
+nav > ul  {
+    /* display: inline-block; */
+    display: flex;
     margin: 20px;
-    font-size: 20px;
+    
+    /* font-size: 20px; */
 }
 
-nav li > a {
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding : 5px;
+}
+
+nav li  a {
     text-decoration: none;
 }
 
 nav li:hover{
      background-color: lightgrey;
 }
+
+ /* Nested menu styles */
+
+  nav li .dropdown  {
+    display: none;
+  }
+  nav li:hover >.dropdown {
+    display: block;
+    position: absolute;
+    background-color: tomato;
+    padding-left: 10px;
+    
+  }
+  
 
 
 footer {
