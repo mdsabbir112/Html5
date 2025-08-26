@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Document </title>
+    <link rel="stylesheet" href="styles/blog.css">
     <style>
-
-        table{
+        table {
             border-collapse: collapse;
         }
 
-        td,th{
-           border: 1px solid black;
-           padding: 5px 10px;
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
         }
-        tfoot{
+
+        tfoot {
             text-align: center;
             text-shadow: 3px 3px 3px blueviolet;
         }
-
     </style>
 </head>
+
 <body>
-    <h3>This is the table that i want for  </h3>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="indigo.html">Home</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="table.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+   <main>
+     <h3>This is the table that i want for </h3>
 
     <table>
         <caption>Table for The Employees</caption>
@@ -52,15 +66,18 @@
                 <td>3</td>
                 <td>Tom</td>
                 <td>Tester</td>
-                <td>$8000</td>  
+                <td>$8000</td>
             </tr>
 
         </tbody>
         <tfoot>
-             <tr>
+            <tr>
                 <td colspan="4">Total Salary : $23000</td>
-             </tr>
+            </tr>
         </tfoot>
     </table>
+    <!-- li*4>a -->
+   </main>
 </body>
+
 </html>
