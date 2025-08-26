@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Page</title>
+    <link rel="stylesheet" href="styles/indigo.css">
+    <style>
+        label{
+            display: block;
+            margin: 20px;
+            font-size: 20px;
+            font-style: italic;
+            text-shadow: 5px 5px 5px blueviolet;
+        }
+        input{
+            color: brown;
+            text-align: center;
+            font-style: italic;
+            margin: 5px;
+            border: 2px solid orangered;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px blueviolet;
+        }
+        fieldset{
+            margin-bottom: 20px;
+            /* background-color: bisque; */
+            
+        }
+        legend{
+            font-size: larger;
+            font-style: italic;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+<section>
+    <h2 style="text-align: center; color: blueviolet; ">Please Login to Continue</h2>
+    <form>
+        <label for="username">Username : 
+        <input  id="username" type="text" placeholder="Your Name ">
+    </label>
+
+    <label for="email">Email : <input type="Email" name="" id="email" placeholder="Enter Your Email"></label>
+    <label for="password">Password : <input type="password" id="password" placeholder="Enter Your Password"></label>
+    
+    <fieldset>
+        <legend> Pick Your Choice </legend>
+            <label for="male"> 
+                <input type="radio" id="" name="sadika">Male
+            </label>
+            <label for="Female"> 
+                <input type="radio" id="" name="sadika">Female
+            </label>
+            <label for="Trans"> 
+                <input type="radio" id="" name="sadika">No Gender
+            </label>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Pick Your Favourite Color</legend>
+         <label for="color">
+            <input type="checkbox" id="color" name="col"> Red
+         </label>
+         <label for="color">
+            <input type="checkbox" id="color" name="col"> Green
+         </label>
+    <label for="color"> 
+        <input type="checkbox" id="color" name="col"> Blue
+    </label>
+
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Special Instructions</legend>
+        <textarea name="" id=""></textarea>
+    </fieldset>
+
+    <input type="reset">
+    <input type="submit">
+
+
+</form>
+</section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

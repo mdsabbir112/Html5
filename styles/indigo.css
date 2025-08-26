@@ -1,0 +1,27 @@
+nav > ul > li{
+    display:inline-block;
+    margin: 30px;
+    
+}
+
+header{
+    background-image: url("../assets/images/desk2.jpg");
+    background-size: cover;
+    color: white;
+}
+
+nav li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.lima{
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    
+}
+
