@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice-1 Document</title>
     <style>
-        
+        table{
+            text-align: center;
+            border: 10px solid black;
+            margin: 10px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 4px solid black;
+            padding: 5px 10px ;
+        }
+        th{
+            border: 4px solid black;
+            padding: 5px 10px ;
+            font-style: oblique;
+        }
     </style>
 </head>
 <body>
@@ -33,7 +48,15 @@
             <label for="name">Name : </label><br>
             <input style="border-radius: 10px; border-width: 10px; padding: 10px;" type="text" name="" id="name" placeholder="Please enter your name"><br><br>
             <label for="Date">Date : </label><br>
-            <input type="date" name="" id="Date" placeholder="Please enter Prefered date">
+            <input type="date" name="" id="Date" placeholder="Please enter Prefered date"><br><br>
+            <label for="text">Please Give Your Feedback : 
+                <select name="" id="">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="bad">Bad</option>
+                    <option value="very bad">Very Bad</option>
+                </select>
+            </label><br>
             
             <br>
             <label for="text"> Comment : </label><br>
@@ -42,6 +65,70 @@
             <input type="submit">
 
         </form>
+
+        <h2 style="text-align: center;">Table Tennis Tournament</h2>
+        <table >
+            <caption style="text-align: center;">Tournament Shedule and Results</caption>
+        
+            <thead style="text-align: center;">
+                <tr>
+                    <th>Round 1</th>
+                    <th>Player A</th>
+                    <th>Player B</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Match 1</td>
+                    <td>John</td>
+                    <td>Alice</td>
+                </tr>
+                <tr>
+                    <td>Match 2</td>
+                    <td>Mark </td>
+                    <td>Sarah</td>
+                </tr>
+
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Round 2</th>
+                    <th>PLayer C </th>
+                    <th>Player D</th>
+                </tr>
+            </thead>
+              <tbody>
+                <tr>
+                    <td>Match 3</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Match 4</td>
+                    <td>TBD </td>
+                    <td>TBD</td>
+                </tr>
+
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Final</th>
+                    <th>Winner of Match 3</th>
+                    <th>Winner of Match 4</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Champion</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+
+            </tfoot>
+        
+        
+        </table>
     
     
     </main>
